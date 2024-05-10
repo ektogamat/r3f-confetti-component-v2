@@ -1,0 +1,35 @@
+{
+  "name": "r3f-confetti-component",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "9.105.6",
+    "@react-three/fiber": "8.16.5",
+    "@react-three/postprocessing": "2.16.2",
+    "@types/three": "0.164.0",
+    "framer-motion-3d": "11.1.9",
+    "leva": "0.9.35",
+    "maath": "0.10.7",
+    "r3f-perf": "^7.2.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-scripts": "5.0.1",
+    "three": "0.164.1",
+    "vercel": "^34.1.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "vercel --prod"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
