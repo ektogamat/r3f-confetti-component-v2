@@ -24,7 +24,7 @@ export default function App() {
         <ExplosionConfetti shadows particleSize={0.2} numberOfExplosions={3} position={[0, 1.9, 0]} colorsArray={['green', 'blue', 'orange', 'yellow', 'red']} />
         <Scene />
       </Canvas>
-      {/* <Overlay /> */}
+      <Overlay />
     </>
   );
 }
