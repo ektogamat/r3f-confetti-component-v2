@@ -4,7 +4,7 @@
 
 Adds confetti explosions to your react-three-fiber projects using instanced meshes with a single draw call with many customization options. Download it here.
 
-[![screenshot](/public/cover.jpg)](https://r3f-confetti-component.vercel.app/)
+[![screenshot](/public/cover.jpg)](https://r3f-confetti-v2-component.vercel.app)
 
 [See the demo here](https://r3f-confettiv2-component.vercel.app/)
 

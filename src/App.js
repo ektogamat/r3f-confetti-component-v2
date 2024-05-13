@@ -10,18 +10,21 @@ export default function App() {
       <Canvas
         dpr={1}
         shadows
-        gl={{ antialias: true, alpha: false }}
-        camera={{ position: [0, -0.3, 6], near: 0.5, fov: 45 }}
+        gl={{ antialias: false, alpha: false, powerPreference: 'high-performance' }}
+        camera={{ position: [4, 0.3, 8], near: 0.1, fov: 35 }}
       >
-        <color attach="background" args={["#fbd693"]} />
+        <ExplosionConfetti shadows particleSize={0.2} numberOfExplosions={3} position={[0, 1.9, 0]} colorsArray={['green', 'blue', 'orange', 'yellow', 'red']} />
 
         <OrbitControls
-          zoomSpeed={1}
+          zoomSpeed={0.4}
           minDistance={4}
           maxDistance={15}
           maxPolarAngle={Math.PI / 2.0}
+          target={[0, 1, 0]}
+          autoRotate
+          autoRotateSpeed={-0.5}
         />
-        <ExplosionConfetti shadows particleSize={0.2} numberOfExplosions={3} position={[0, 1.9, 0]} colorsArray={['green', 'blue', 'orange', 'yellow', 'red']} />
+
         <Scene />
       </Canvas>
       <Overlay />

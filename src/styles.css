@@ -29,6 +29,15 @@ body {
   pointer-events: none;
   width: 90%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+small {
+  color: white;
+  margin-top: 20px;
+  opacity: 0.3;
 }
 
 .ctaButton {
@@ -67,14 +76,14 @@ body {
 
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 2em;
-  line-height: 1.5em;
+  font-size: 8vw;
+  line-height: 1.1em;
   opacity: 0.95;
-  color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
 
   user-select: none;
   pointer-events: none;
-  opacity: 0.2;
+  opacity: 0.9;
   text-transform: uppercase;
 }
 
@@ -106,12 +115,31 @@ h2 {
 }
 
 p {
-  color: rgb(54, 54, 54);
-  opacity: 0.3;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+  width: 50%;
 }
 
 a {
-  color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
 
   pointer-events: all;
+}
+
+button {
+  padding: 16px 40px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 16px;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  pointer-events: all;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
 }

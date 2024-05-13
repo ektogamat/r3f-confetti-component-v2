@@ -12,11 +12,12 @@ export default function Overlay() {
       </button>
 
       <div className="container">
-        <h1>React three fiber component</h1>
-        <p>Adds confetti explosions to your projects with many customization options. <a href="https://github.com/ektogamat/r3f-confetti-component" target="_blank">Download it here.</a></p>
-        <p>
-          Creeated by Anderson Mancini.
-        </p>
+        <h1>CONFETTI V2</h1>
+        <p>Adds performant confetti explosions to your for React Three Fiber projects using instanced meshes with many customization options. </p>
+        <button onClick={() => window.open('https://github.com/ektogamat/r3f-confetti-component-v2', 'tab')} >Download it now</button>
+        <small>
+          Creeated by Anderson Mancini. Model Credits: <a href="https://sketchfab.com/3d-models/clown-in-car-94b08bdb9fb84d09908680790e9645fa" target="_blank">Clown in a car</a>
+        </small>
       </div>
     </>
   )
