@@ -6,7 +6,7 @@ Adds confetti explosions to your react-three-fiber projects using instanced mesh
 
 [![screenshot](/public/cover.jpg)](https://r3f-confetti-v2-component.vercel.app)
 
-[See the demo here](https://r3f-confettiv2-component.vercel.app/)
+[See the demo here](https://r3f-confetti-v2-component.vercel.app/)
 
 # HOW TO USE?
 
